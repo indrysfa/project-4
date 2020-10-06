@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Team ke-4</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/indry.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Header -->
+        <div id="header">
+          <div class="row">
+              <div class="col-sm-12">
+                  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                      <a class="navbar-brand" href="index.html">Jeju Island</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="destination.html">Destination</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Pages
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="destination-detail.html">Destination Detail</a>
+                            </div>
+                          </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </nav>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-12">
+                  <img src="img/jeju1.jpg" style="width: 100%; height: 100%;" class="img-fluid" alt="Responsive image">
+              </div>
+          </div>
+        </div>
+        <!-- Search Destination -->
+        <div id="search">
+            <div class="row">
+                <div class="col-sm-3 d-flex justify-content-end">
+                    <h4>Where you want to go ?</h4>
+                </div>
+                <div class="col-sm-9">
+                    <form>
+                        <div class="form-row">
+                          <div class="col-4">
+                            <input type="text" class="form-control" placeholder="Where to go?">
+                          </div>
+                          <div class="col-4">
+                            <input type="text" class="form-control" placeholder="Date">
+                          </div>
+                          <!-- <div class="col">
+                            <input type="text" class="form-control" placeholder="Zip">
+                          </div> -->
+                          <div class="form-row align-items-center">
+                            <div class="col-auto my-1">
+                              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                <option selected>Travel Type</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                            </div>
+                            <div class="col-auto my-1">
+                              <button type="submit" class="btn btn-primary">Search</button>
+                            </div>
+                          </div>
+           
+                       
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+        <!-- Activities -->
+        <div id="activities">
+          <div class="container">
+            <div class="row">
+              <!-- Left Content -->
+              <div class="col-sm-4">
+                <span class="border">
+                  <h5>Filter Result</h5>
+                  <form>
+                    <div class="form-group">
+                      <select id="inputState" class="form-control">
+                        <option selected>Country</option>
+                        <option>Jakarta</option>
+                        <option>Bandung</option>
+                        <option>Semarang</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <select id="inputState" class="form-control">
+                        <option selected>Travel Type</option>
+                        <option>Sultan</option>
+                        <option>Master</option>
+                        <option>Reguler</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="formControlRange">Price Range</label>
+                      <input type="range" class="form-control-range" id="formControlRange">
+                    </div>
+          
+             
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Reset</button>
+                  </form>
+                </span>
+              </div>
+              <!-- Right Content -->
+              <div class="col-sm-8">
+                <div class="card-deck">
+                  <div class="card">
+                    <img src="img/jeju2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Budaya Jeju</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 16 mins ago</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/jeju3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Patung Jeju</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 2 days</small>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="card-deck">
+                  <div class="card">
+                    <img src="img/jeju4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Taman Jeju</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 3 days</small>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="img/jeju5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Laut Jeju</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-muted">Last updated 1 weeks</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Recent Trips -->
+        <div id="recent-trips">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <h3 style="color: blue;">Recent Trips</h3>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+              <picture>
+                <source srcset="img/jeju6.jpg" type="image/svg+xml">
+                <img src="img/jeju6.jpg" class="img-fluid img-thumbnail" alt="...">
+                <small class="text-muted">Sept 09, 2019</small>
+              </picture>
+              <picture>
+                <source srcset="img/jeju7.jpg" type="image/svg+xml">
+                <img src="img/jeju7.jpg" class="img-fluid img-thumbnail" alt="...">
+                <small class="text-muted">   Des 12, 2012</small>
+              </picture>
+              <picture>
+                <source srcset="img/jeju8.jpg" type="image/svg+xml">
+                <img src="img/jeju8.jpg" class="img-fluid img-thumbnail" alt="...">
+                <small class="text-muted">   Jan 06, 2006</small>
+              </picture>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+              <picture>
+                <source srcset="img/jeju9.jpg" type="image/svg+xml">
+                <img src="img/jeju9.jpg" class="img-fluid img-thumbnail" alt="...">
+                <small class="text-muted">Aug 03, 2011</small>
+              </picture>
+              <picture>
+                <source srcset="img/jeju10.jpg" type="image/svg+xml">
+                <img src="img/jeju10.jpg" class="img-fluid img-thumbnail" alt="...">
+                <small class="text-muted">   Jun 22, 2004</small>
+              </picture>
+              <picture>
+                <source srcset="img/jeju11.webp" type="image/svg+xml">
+                <img src="img/jeju11.webp" class="img-fluid img-thumbnail" alt="...">
+                <small class="text-muted">   May 26, 2001</small>
+              </picture>
+            </div>
+          </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <h4>Jeju Island</h4>
+                <br>
+                <p>Kepulauan Jeju, Korea Selatan</p>
+                <p>+62 098765</p>
+                <p>jejuisland@gmail.com</p>
+              </div>
+              <div class="col-sm-2">
+                <h4>Company</h4>
+                <br>
+                <p>SM Entertainment</p>
+                <p>YG Entertainment</p>
+                <p>JYP Entertainment</p>
+              </div>
+              <div class="col-sm-4">
+                <h4>Popular Country</h4>
+                <br>
+                <div class="row">
+                  <div class="col-sm-2">
+                    <p>Indonesia</p>
+                    <p>Singapore</p>
+                    <p>Malaysia</p>
+                    <p>Vietnam</p>
+                  </div>
+                  <div class="col-sm-2">
+                    <p>America</p>
+                    <p>Europe</p>
+                    <p>Africa</p>
+                    <p>Arab</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <h4>Instagram</h4>
+                ​<picture>
+                  <source srcset="img/ava.png" type="image/svg+xml">
+                  <img src="img/ava.png" class="img-fluid img-thumbnail" alt="...">
+                </picture>
+                ​<picture>
+                  <source srcset="img/ava.png" type="image/svg+xml">
+                  <img src="img/ava.png" class="img-fluid img-thumbnail" alt="...">
+                </picture>
+                ​<picture>
+                  <source srcset="img/ava.png" type="image/svg+xml">
+                  <img src="img/ava.png" class="img-fluid img-thumbnail" alt="...">
+                </picture>
+                <picture>
+                  <source srcset="img/ava.png" type="image/svg+xml">
+                  <img src="img/ava.png" class="img-fluid img-thumbnail" alt="...">
+                </picture>
+                <picture>
+                  <source srcset="img/ava.png" type="image/svg+xml">
+                  <img src="img/ava.png" class="img-fluid img-thumbnail" alt="...">
+                </picture>
+                <picture>
+                  <source srcset="img/ava.png" type="image/svg+xml">
+                  <img src="img/ava.png" class="img-fluid img-thumbnail" alt="...">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

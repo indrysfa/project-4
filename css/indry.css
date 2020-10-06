@@ -1,0 +1,55 @@
+.container-fluid{
+	background-color: #FFF5EE;
+}
+
+#search{
+	padding: 70px 0 70px 0;
+}
+
+#activities{
+	padding: 70px 0 30px 0;
+	background-color: #87CEFA;
+}
+
+#recent-trips{
+	padding: 70px 0 30px 0;
+	background-color: #B0C4DE;
+}
+
+#recent-trips .container .row .col-sm-12 h3{
+	padding-bottom: 30px;
+}
+
+#detail{
+	padding: 50px 0 50px 0;
+}
+
+#contact{
+	background-color: #98FB98;
+}
+
+#contact .container .row{
+	padding: 30px 0 30px 0;
+}
+
+#more-place{
+	padding: 70px 0 30px 0;
+	background-color: #B0C4DE;
+}
+
+#more-place h3{
+	padding-bottom: 30px;
+}
+
+footer{
+	background-color: #6495ED;
+}
+
+footer .container .row{
+	padding: 30px 0 20px 0;
+}
+
+footer picture img{
+	width: 80px;
+	height: 80px;
+}
